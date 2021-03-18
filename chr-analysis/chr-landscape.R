@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-setwd("data/chr-landscape")
+setwd("chr-analysis/chr-landscape")
 
 num.rows = 3
 max.y1 = 200

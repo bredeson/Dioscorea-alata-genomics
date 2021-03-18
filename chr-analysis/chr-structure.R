@@ -30,7 +30,7 @@ options(digits=6)
 #################################################################################
 # Load species-specific information
 #################################################################################
-setwd("./data/chr-structure")
+setwd("./chr-analysis/chr-structure")
 species.name = "Dalata-v2"
 species.dir = "."
 hic.dir = "KRdump100kb"
