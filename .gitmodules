@@ -1,12 +1,12 @@
 [submodule "artisanal"]
-	path = artisanal
+	path = software/artisanal
 	url = https://bitbucket.org/bredeson/artisanal
 [submodule "gbs-analysis"]
-	path = gbs-analysis
+	path = software/gbs-analysis
 	url = https://bitbucket.org/rokhsar-lab/gbs-analysis
 [submodule "map4cns"]
-	path = map4cns
+	path = software/map4cns
 	url = https://bitbucket.org/rokhsar-lab/map4cns
 [submodule "wgs-analysis"]
-	path = wgs-analysis
+	path = software/wgs-analysis
 	url = https://bitbucket.org/rokhsar-lab/wgs-analysis
