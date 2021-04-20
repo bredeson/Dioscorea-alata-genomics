@@ -1,7 +1,14 @@
 #!/bin/bash
 
 if [[ -z "$2" ]]; then
+    printf "\n" >>/dev/fd/2;
     printf "Usage: %s <species1> <species2>\n" $(basename $0) >>/dev/fd/2;
+    printf "\n" >>/dev/fd/2;
+    printf "Notes:\n" >>/dev/fd/2;
+    printf "  Expects blast+, dialign-tx, samtools, python3, R,\n" >>/dev/fd/2;
+    printf "  and the artisanal repo to be accessible via \$PATH\n" >>/dev/fd/2;
+    printf "\n" >>/dev/fd/2;
+    printf "\n" >>/dev/fd/2;
     exit 1;
 fi
 
@@ -126,7 +133,7 @@ if [[ -s $sp1-$sp2.anchors && ! -s $sp1-$sp2.synt.pdf ]]; then
     printf "INFO: Plotting: $sp1-$sp2.synt.pdf\n" >>/dev/fd/2;
     awk 'OFS="\t" {gsub(".[0-9]+$","",$1); gsub(".[0-9]+$","",$2); print $1,$2}' \
 	 $sp1-$sp2.anchors >$sp1-$sp2.anchors.tmp \
-    && Rscript ~bredeson/tools/artisanal/src/plot-collinearity-index.R \
+    && plot-collinearity-index \
 	 $sp1-$sp2.anchors.tmp \
 	 $sp1.loc.bed \
 	 $sp2.loc.bed \
@@ -168,7 +175,7 @@ if [[ -s $sp1-$sp2.anchors && ! -s $sp1-$sp2.kaks.fofn ]]; then
 	# dialign-tx alignments can fail if one or 
 	# more sequences contains non-ATCG chars
 	if [[ -s align/$i.fa ]]; then
-	    python ~bredeson/tools/artisanal/src/extract-aligned-codons.py \
+	    extract-aligned-codons \
 	        align/$i.fa \
 	      1>trim/$i.fa \
 	      2>trim/$i.log \
@@ -187,7 +194,7 @@ fi
 
 if [[ -s $sp1-$sp2.kaks.fofn && ! -s $sp1-$sp2.kaks.tsv ]]; then
     printf "INFO: Running Ka/Ks: $sp1-$sp2.kaks.tsv\n" >>/dev/fd/2;
-    Rscript ~bredeson/tools/artisanal/src/calculate-kaks.R \
+    calculate-kaks \
         $sp1-$sp2.kaks.fofn \
 	1> $sp1-$sp2.kaks.tsv.tmp \
 	2> $PROGRAM.$$.log \
@@ -233,7 +240,7 @@ fi
 
 if [[ -s $sp1-$sp2.ks.anchors && ! -s $sp1-$sp2.ks.synt.pdf ]]; then
     printf "INFO: Plotting: $sp1-$sp2.ks.synt.pdf\n" >>/dev/fd/2;
-    Rscript ~bredeson/tools/artisanal/src/plot-collinearity-index.R \
+    plot-collinearity-index \
 	$sp1-$sp2.ks.anchors \
 	$sp1.loc.bed \
 	$sp2.loc.bed \
@@ -290,7 +297,7 @@ fi
 
 if [[ -s $sp1-$sp2.ks.m5d20.clust.anchors && ! -s $sp1-$sp2.ks.m5d20.clust.synt.pdf ]]; then
     printf "INFO: Plotting: $sp1-$sp2.ks.m5d20.clust.synt.pdf\n" >>/dev/fd/2;
-    Rscript ~bredeson/tools/artisanal/src/plot-collinearity-index.R \
+    plot-collinearity-index \
 	$sp1-$sp2.ks.m5d20.clust.anchors \
 	$sp1.loc.bed \
 	$sp2.loc.bed \
