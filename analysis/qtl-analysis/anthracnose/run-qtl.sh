@@ -26,7 +26,7 @@ grep -v '^#' $base/../pop.anthracnose.txt | while read pop pheno; do
     &>$pop/$pheno/$pop.$pheno.plink-qtl-scan.log;
 
     printf "[%s]   Plotting association results\n" $(basename $0) >>/dev/fd/2
-    $base/../polot-qtl-scan.R \
+    $base/../plot-qtl-scan.R \
 	$pop/$pheno/$pop.$pheno \
 	$base/../Dalata-v2.chrom.sizes \
 	0.05 \
