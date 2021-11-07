@@ -139,7 +139,7 @@ if [[ -s $sp1-$sp2.anchors && ! -s $sp1-$sp2.synt.pdf ]]; then
 	 $sp2.loc.bed \
 	 $sp1-$sp2 \
     1>&2 \
-    2>>align/$i.log \
+    2>>$PROGRAM.$$.log \
     && rm $sp1-$sp2.anchors.tmp
 fi
 

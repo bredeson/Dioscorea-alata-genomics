@@ -11,7 +11,7 @@ map=$3
 out=$4
 pop=$(tail -n 1 $fam | cut -f1);
 
-awk 'OFS="\t" {if ($1 !~ /^#/) { print $3,$1":"$2 }}' $vcf >$out.name.txt
+zcat $vcf | awk 'OFS="\t" {if ($1 !~ /^#/) { print $3,$1":"$2 }}' >$out.name.txt
 awk 'OFS="\t" {if (($6 ~ /^-?[0-9.]+$/) && ($6 != -9)) {print $1,$2} else if ($3 == 0 && $4 == 0) {print $1,$2}}' $fam >$out.keep.txt
 awk 'OFS="\t" {print $1,$2,$5}' $fam >$out.sex.txt
 awk 'OFS="\t" {print $1,$2,$6}' $fam >$out.pheno.txt
