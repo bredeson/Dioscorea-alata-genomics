@@ -1,3 +1,5 @@
+#!/usr/bin/env Rscript
+
 # Copyright (c)2013. The Regents of the University of California (Regents).
 # All Rights Reserved. Permission to use, copy, modify, and distribute this
 # software and its documentation for educational, research, and
@@ -30,7 +32,7 @@ options(digits=6)
 #################################################################################
 # Load species-specific information
 #################################################################################
-setwd("./chr-analysis/chr-structure")
+setwd("./chr-structure")
 species.name = "Dalata-v2"
 species.dir = "."
 hic.dir = "KRdump100kb"
