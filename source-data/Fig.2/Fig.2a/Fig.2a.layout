@@ -1,0 +1,7 @@
+# y,  xstart, xend, rotation,   color,           label,    va,                                bed, label_va
+0.8,    0.10,  0.9,        0, #EEAD0E,     D.rotundata,   top,       Fig.2a/Fig.2a.Drotundata.bed,    above
+0.5,    0.10,  0.9,        0,   black,         D.alata,   top,           Fig.2a/Fig.2a.Dalata.bed,    above
+0.2,    0.10,  0.9,        0, #009ACD, D.zingiberensis, bottom,  Fig.2a/Fig.2a.Dzingiberensis.bed,    below
+# edges
+e, 1, 0, Fig.2a/Fig.2a.Dalata-Drotundata.simple
+e, 1, 2, Fig.2a/Fig.2a.Dalata-Dzingiberensis.simple

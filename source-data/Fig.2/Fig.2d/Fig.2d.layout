@@ -1,0 +1,8 @@
+# y,  xstart,    xend, rotation, color, label,     va,               bed, label_va
+0.8,    0.60,  0.7327,        0, black,     0,    top, Fig.2d/Fig.2d.Dalata.bed,    above
+0.5,    0.10,  0.9000,        0, black,     1,    top, Fig.2d/Fig.2d.Dalata.bed,    above
+0.2,    0.10,  0.8736,        0, black,     2, bottom, Fig.2d/Fig.2d.Dalata.bed,    below
+# edges
+e, 0, 1, Fig.2d/Fig.2d.0+1.simple
+e, 0, 2, Fig.2d/Fig.2d.0+2.simple
+e, 1, 2, Fig.2d/Fig.2d.1+2.simple
