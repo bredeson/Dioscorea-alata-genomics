@@ -3,15 +3,15 @@
 # Assumes a correctly-installed distro of Anaconda/Miniconda and the
 # shell has been properly initialized with `conda init bash`
 
-# conda create \
-#       --yes \
-#       --channel conda-forge \
-#       --channel bioconda \
-#       --name qtl \
-#       plink=1.90b6.18 \
-#       r-base=3.5.3
+conda create \
+      --yes \
+      --channel conda-forge \
+      --channel bioconda \
+      --name qtl \
+      plink=1.90b6.18 \
+      r-base=3.5.3
 
-# conda activate qtl 
+conda activate qtl 
 
 # About PLINK Quantitative trait association testing (--assoc):
 #   http://zzz.bwh.harvard.edu/plink/anal.shtml#qt
