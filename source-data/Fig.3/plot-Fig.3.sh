@@ -26,8 +26,7 @@ conda activate qtl
 plink \
     --bfile Fig.3 \
     --allow-no-sex \
-    --assoc mperm=1000000 qt-means \
-    --mperm-save \
+    --assoc mperm=1000000 \
     --pfilter 1 \
     --threads 1 \
     --out Fig.3b/Fig.3b

@@ -8,7 +8,9 @@ P = args[[1]]  # input file prefix
 r = args[[2]]  # region str of focal locus
 o = args[[3]]  # output file prefix
 
-L = read.table(sprintf("%s.pos", P), stringsAsFactors=F)
+p = sub('.gz$', '', P, perl=TRUE)
+
+L = read.table(sprintf("%s.pos", p), stringsAsFactors=F)
 M = read.table(P)
 M = t(as.matrix(M[,2:ncol(M)]))
 
