@@ -1,7 +1,7 @@
 # *Dioscorea alata* genomics data and scripts
 
 ## Description
-This repository contains scripts and data from the *Dioscorea alata* cv. TDa95/00328 genome assembly v2 and population genetic analysis manuscript:
+This repository contains scripts and data from the *Dioscorea alata* var. TDa95/00328 genome assembly v2 and population genetic analysis manuscript:
 
 - Bredeson, Lyons, et al. Chromosome evolution and the genetic basis of agronomically important traits in greater yam. *Nat Comm*. (in review)
 
@@ -18,7 +18,11 @@ The files within this repo are organized broadly into three subdirectories: `sof
   > **NOTE**: See the **Installation** section below for how to properly install submodules.
 
 
-- `source-data/`: This subdirectory contains data files and scripts used to generate the figures presented in the manuscript and Supplementary Information (where feasible). Each figure subdirectory is further organized by figure panel. The primary script for regenerating each figure is named with a `plot-<FigName>.sh` convention; for example, `cd source-data/Fig.1 && plot-Fig.1.sh` will regenerate the plots presented in Fig. 1. See the contents of these individual scripts for execution details.
+- `source-data/`: This subdirectory contains data files and scripts used to generate the figures presented in the manuscript and Supplementary Information (where feasible). Each figure subdirectory is further organized by figure panel. The primary script for regenerating each figure is named with a `plot-<FigName>.sh` convention; for example, 
+  ```bash
+  cd source-data/Fig.1 && plot-Fig.1.sh
+  ```
+  will regenerate the plots presented in Fig. 1. See the contents of these individual scripts for execution details.
   > **NOTE**: Regenerating figures with these scripts requires a properly-configured Anaconda or Miniconda installation. See the **Installation** section below for additional dependencies.
   
 
