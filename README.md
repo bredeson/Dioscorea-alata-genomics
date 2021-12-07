@@ -18,11 +18,10 @@ The files within this repo are organized broadly into three subdirectories: `sof
   > **NOTE**: See the **Installation** section below for how to properly install submodules.
 
 
-- `source-data/`: This subdirectory contains data files and scripts used to generate the figures presented in the manuscript and Supplementary Information (where feasible). Each figure subdirectory is further organized by figure panel. The primary script for regenerating each figure is named with a `plot-<FigName>.sh` convention; for example, 
+- `source-data/`: This subdirectory contains data files and scripts used to generate the figures presented in the manuscript and Supplementary Information (where feasible). Each figure subdirectory is further organized by figure panel. The primary script for regenerating each figure is named with a `plot-<FigName>.sh` convention; for example, the following will regenerate the plots presented in Fig. 1 (See the contents of these individual scripts for execution details): 
   ```bash
   cd source-data/Fig.1 && plot-Fig.1.sh
   ```
-  will regenerate the plots presented in Fig. 1. See the contents of these individual scripts for execution details.
   > **NOTE**: Regenerating figures with these scripts requires a properly-configured Anaconda or Miniconda installation. See the **Installation** section below for additional dependencies.
   
 
