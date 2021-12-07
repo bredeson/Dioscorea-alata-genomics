@@ -1,18 +1,18 @@
 #!/usr/bin/env Rscript
 # Assumes PLINK-formatted linkage maps, one population and chromosome (of 1:1 correspondence) per file
 # Input config has one population per line:
-# <pop.name> <pop.size> <pop.map.filepath>
+# <lpmerge.map> <out-prefix>
 
 interval.range = 1:10
 
 arguments = commandArgs(TRUE)
 arguments = unlist(arguments)
 if (length(arguments) != 2) {
-    cat("Usage: lpmerge-maps.R <lpmerge.map> <out-prefix>\n", file=stderr())
+    cat("Usage: plot-lpmerge-maps.R <lpmerge.map> <out-prefix>\n", file=stderr())
     quit("no",1)
 }
 
-merged.maps = read.table(arguments[1], stringsAsFactors=F, header=T, na.strings="-")
+merged.maps = read.table(arguments[1], stringsAsFactors=F, header=T, na.strings=c("-","NA","."))
 prefix = arguments[2]
 
 
