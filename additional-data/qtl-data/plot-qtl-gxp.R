@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-arguments = commandArgs(TRUE)  # <bfile> <chr:pos>
+arguments = commandArgs(TRUE)  # <bfile> <chr:pos> <out-prefix>
 
 missing.allele = c(-9, NA)
 missing.phenotype = c(-9, NA, 0)
@@ -12,6 +12,7 @@ genotype.colors = c(
 
 bfile = arguments[[1]]
 locus = arguments[[2]]
+prefx = arguments[[3]]
 tfile = tempfile("plink-list-", tmpdir=tempdir())
 
 cat(sprintf("[INFO] Staging with prefix: %s\n", tfile), file=stderr())
@@ -140,7 +141,7 @@ if ((sum(paternal.dose) == 1) & (sum(maternal.dose) == 1)) {
                snp$Genotype[snp$ProbandID == maternal.id]))
 }
 
-pdf(sprintf("%s.%s.effect.pdf", bfile, sub(":","_",locus)))
+pdf(sprintf("%s.%s.effect.pdf", prefx, sub(":","_",locus)))
 plot(
   jitter(progeny$AlleleDose, amount=0.125), progeny$Phenotype, 
   col=genotype.colors[progeny$AlleleDose+1], pch=16, cex=1.25, 

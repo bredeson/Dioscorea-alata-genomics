@@ -1,0 +1,705 @@
+>Feature mt
+1	712768	source		
+			mol_type	genomic DNA
+			organism	Dioscorea alata
+			variety	TDa95/00328
+			organelle	mitochondrion
+
+8652	8725	gene		
+			gene	trnR-ACG
+8652	8725	tRNA		
+			gene	trnR-ACG
+			product	tRNA-Arg
+
+9392	9321	gene		
+			gene	trnN-GUU
+9392	9321	tRNA		
+			gene	trnN-GUU
+			product	tRNA-Asn
+
+10576	10506	gene		
+			gene	trnC-GCA
+10576	10506	tRNA		
+			gene	trnC-GCA
+			product	tRNA-Cys
+
+20915	20842	gene		
+			gene	trnM-CAU
+20915	20842	tRNA		
+			gene	trnM-CAU
+			product	tRNA-Met
+
+24713	21310	gene		
+			gene	rrn26
+24713	21310	rRNA		
+			gene	rrn26
+			product	26S ribosomal RNA
+
+28588	30543	gene		
+			gene	rrn18
+28588	30543	rRNA		
+			gene	rrn18
+			product	18S ribosomal RNA
+
+30655	30772	gene		
+			gene	rrn5
+30655	30772	rRNA		
+			gene	rrn5
+			product	5S ribosomal RNA
+
+45625	36524	gene		
+			gene	nad4
+45625	45164	CDS		
+43762	43250			
+39268	38846			
+36613	36524			
+			gene	nad4
+			product	NADH dehydrogenase subunit 4
+
+63085	61118	gene		
+			gene	matR
+63085	61118	CDS		
+			gene	matR
+			product	maturase
+
+73264	73767	gene		
+			gene	rps1
+73264	73767	CDS		
+			gene	rps1
+			product	ribosomal protein S1
+
+<75261	194506	gene		
+144488	60653			
+			gene	nad1
+<75261	75633	CDS		
+194457	194506			
+144488	144399			
+142966	142772			
+60653	60333			
+			exception	trans-splicing
+			gene	nad1
+			product	NADH dehydrogenase subunit 1, partial sequence
+
+<89946	88777	gene		
+			gene	rps10
+<89946	89697	CDS		
+88907	88777			
+			gene	rps10
+			product	ribosomal protein S10, partial sequence
+
+95336	95407	gene		
+			gene	trnE-UUC
+95336	95407	tRNA		
+			gene	trnE-UUC
+			product	tRNA-Glu
+
+97023	103140	gene		
+			gene	nad7
+97023	97166	CDS		
+98023	98089			
+99394	99860			
+100854	101099			
+102880	103140			
+			gene	nad7
+			product	NADH dehydrogenase subunit 7
+
+103317	103390	gene		
+			gene	trnM-CAU
+103317	103390	tRNA		
+			gene	trnM-CAU
+			product	tRNA-Met
+
+105027	104954	gene		
+			gene	trnH-GUG
+105027	104954	tRNA		
+			gene	trnH-GUG
+			product	tRNA-His
+
+110741	>111172	gene		
+			gene	rps11
+110741	>111172	CDS		
+			gene	rps11
+			product	ribosomal protein S11, partial sequence
+
+115360	115806	gene		
+			gene	rps7
+115360	115806	CDS		
+			gene	rps7
+			product	ribosomal protein S7
+
+121647	120775	gene		
+			gene	rrn16-ct
+121647	120775	rRNA		
+			gene	rrn16-ct
+			product	16S ribosomal RNA
+
+121946	121875	gene		
+			gene	trnV-GAC
+121946	121875	tRNA		
+			gene	trnV-GAC
+			product	tRNA-Val
+
+127528	129313	gene		
+515621	520338			
+			gene	nad2
+127528	127680	CDS		
+128924	129313			
+515621	515780			
+518180	518752			
+520151	520338			
+			exception	trans-splicing
+			gene	nad2
+			product	NADH dehydrogenase subunit 2
+
+139371	140405	gene		
+			gene	rps4
+139371	140405	CDS		
+			gene	rps4
+			product	ribosomal protein S4
+
+145726	145376	gene		
+			gene	rps13
+145726	145376	CDS		
+			gene	rps13
+			product	ribosomal protein S13
+
+146561	>145860	gene		
+			gene	ccmC
+146561	>145860	CDS		
+			gene	ccmC
+			product	cytochrome c biogenesis C, partial sequence
+
+162140	160350	gene		
+			gene	ccmFn
+162140	160350	CDS		
+			gene	ccmFn
+			product	cytochrome c biogenesis Fn
+
+174790	173261	gene		
+			gene	atp1
+174790	173261	CDS		
+			gene	atp1
+			product	ATP synthase F0 subunit 9
+
+193652	193724	gene		
+			gene	trnM-CAU
+193652	193724	tRNA		
+			gene	trnM-CAU
+			product	tRNA-Met
+
+201940	204247	gene		
+664846	663367			
+			gene	nad5
+201940	202178	CDS		
+203041	204247			
+664846	664451			
+663516	663367			
+			exception	trans-splicing
+			gene	nad5
+			product	NADH dehydrogenase subunit 5
+
+201940	204247	gene		
+386871	385391			
+			gene	nad5
+201940	202178	CDS		
+203041	204247			
+386871	386476			
+385540	385391			
+			exception	trans-splicing
+			gene	nad5
+			product	NADH dehydrogenase subunit 5
+
+201940	204247	gene		
+247596	246116			
+			gene	nad5
+201940	202178	CDS		
+203041	204247			
+247596	247201			
+246265	246116			
+			exception	trans-splicing
+			gene	nad5
+			product	NADH dehydrogenase subunit 5
+219195	219268	gene		
+			gene	trnR-ACG
+219195	219268	tRNA		
+			gene	trnR-ACG
+			product	tRNA-Arg
+
+219935	219864	gene		
+			gene	trnN-GUU
+219935	219864	tRNA		
+			gene	trnN-GUU
+			product	tRNA-Asn
+
+221118	221048	gene		
+			gene	trnC-GCA
+221118	221048	tRNA		
+			gene	trnC-GCA
+			product	tRNA-Cys
+
+231458	231385	gene		
+			gene	trnM-CAU
+231458	231385	tRNA		
+			gene	trnM-CAU
+			product	tRNA-Met
+
+235256	231853	gene		
+			gene	rrn26
+235256	231853	rRNA		
+			gene	rrn26
+			product	26S ribosomal RNA
+
+239131	241086	gene		
+			gene	rrn18
+239131	241086	rRNA		
+			gene	rrn18
+			product	18S ribosomal RNA
+
+241198	241315	gene		
+			gene	rrn5
+241198	241315	rRNA		
+			gene	rrn5
+			product	5S ribosomal RNA
+
+260102	259464	gene		
+			gene	nad6
+260102	259464	CDS		
+			gene	nad6
+			product	NADH dehydrogenase subunit 6
+
+261397	261468	gene		
+			gene	trnN-GUU
+261397	261468	tRNA		
+			gene	trnN-GUU
+			product	tRNA-Asn
+
+262187	262114	gene		
+			gene	trnD-GUC
+262187	262114	tRNA		
+			gene	trnD-GUC
+			product	tRNA-Asp
+
+262915	262988	gene		
+			gene	trnM-CAU
+262915	262988	tRNA		
+			gene	trnM-CAU
+			product	tRNA-Met
+
+267898	268254	gene		
+			gene	nad3
+267898	268254	CDS		
+			gene	nad3
+			product	NADH dehydrogenase subunit 3
+
+268299	268676	gene		
+			gene	rps12
+268299	268676	CDS		
+			gene	rps12
+			product	ribosomal protein S12
+
+276970	276173	gene		
+			gene	cox3
+276970	276173	CDS		
+			gene	cox3
+			product	cytochrome c oxidase subunit 3
+
+281244	282007	gene		
+			gene	atpB
+			pseudo	
+
+287521	288141	gene		
+			gene	ccmB
+287521	288141	CDS		
+			gene	ccmB
+			product	cytochrome c biogenesis B
+
+294702	>295289	gene		
+			gene	rps2
+294702	>295289	CDS		
+			gene	rps2
+			product	ribosomal protein S2, partial sequence
+
+301792	305072	gene		
+			gene	cox2
+301792	302180	CDS		
+303440	303755			
+304998	305072			
+			gene	cox2
+			product	cytochrome c oxidase subunit 2
+
+312094	311579	gene		
+			gene	rpl16
+312094	311579	CDS		
+			gene	rpl16
+			product	ribosomal protein L16
+
+315484	311985	gene		
+			gene	rps3
+315484	315416	CDS		
+313604	311985			
+			gene	rps3
+			product	ribosomal protein S3
+
+315786	315499	gene		
+			gene	rps19
+315786	315499	CDS		
+			gene	rps19
+			product	ribosomal protein S19
+
+318953	315790	gene		
+			gene	rpl2
+318953	318067	CDS		
+316462	315790			
+			gene	rpl2
+			product	ribosomal protein L2
+
+343275	343201	gene		
+			gene	trnP-UGG
+343275	343201	tRNA		
+			gene	trnP-UGG
+			product	tRNA-Pro
+
+343534	343461	gene		
+			gene	trnF-GAA
+343534	343461	tRNA		
+			gene	trnF-GAA
+			product	tRNA-Phe
+
+349871	349944	gene		
+			gene	trnM-CAU
+349871	349944	tRNA		
+			gene	trnM-CAU
+			product	tRNA-Met
+
+361217	361146	gene		
+			gene	trnQ-UUG
+361217	361146	tRNA		
+			gene	trnQ-UUG
+			product	tRNA-Gln
+
+370735	370662	gene		
+			gene	trnM-CAU
+370735	370662	tRNA		
+			gene	trnM-CAU
+			product	tRNA-Met
+
+374533	371130	gene		
+			gene	rrn26
+374533	371130	rRNA		
+			gene	rrn26
+			product	26S ribosomal RNA
+
+378408	380363	gene		
+			gene	rrn18
+378408	380363	rRNA		
+			gene	rrn18
+			product	18S ribosomal RNA
+
+380475	380592	gene		
+			gene	rrn5
+380475	380592	rRNA		
+			gene	rrn5
+			product	5S ribosomal RNA
+
+399375	398737	gene		
+			gene	nad6
+399375	398737	CDS		
+			gene	nad6
+			product	NADH dehydrogenase subunit 6
+
+400669	400740	gene		
+			gene	trnN-GUU
+400669	400740	tRNA		
+			gene	trnN-GUU
+			product	tRNA-Asn
+
+401458	401385	gene		
+			gene	trnD-GUC
+401458	401385	tRNA		
+			gene	trnD-GUC
+			product	tRNA-Asp
+
+402185	402258	gene		
+			gene	trnM-CAU
+402185	402258	tRNA		
+			gene	trnM-CAU
+			product	tRNA-Met
+
+407165	407521	gene		
+			gene	nad3
+407165	407521	CDS		
+			gene	nad3
+			product	NADH dehydrogenase subunit 3
+
+407566	407943	gene		
+			gene	rps12
+407566	407943	CDS		
+			gene	rps12
+			product	ribosomal protein S12
+
+411631	411855	gene		
+			gene	atp9
+411631	411855	CDS		
+			gene	atp9
+			product	ATPase subunit 9
+
+429981	>429465	gene		
+			gene	cob
+429981	>429465	CDS		
+			gene	cob
+			product	apocytochrome b, partial sequence
+
+431232	430909	gene		
+			gene	rps14
+431232	430909	CDS		
+			gene	rps14
+			product	ribosomal protein S14
+
+431779	431213	gene		
+			gene	rpl5
+431779	431213	CDS		
+			gene	rpl5
+			product	ribosomal protein L5
+
+<432717	431938	gene		
+			gene	atp6
+<432717	431938	CDS		
+			gene	atp6
+			product	ATP synthase F0 subunit 6, partial sequence
+
+448914	448828	gene		
+			gene	trnS-UGA
+448914	448828	tRNA		
+			gene	trnS-UGA
+			product	tRNA-Ser
+
+458085	458172	gene		
+			gene	trnS-GCU
+458085	458172	tRNA		
+			gene	trnS-GCU
+			product	tRNA-Ser
+
+<460587	460889	gene		
+			gene	nad4L
+<460587	460889	CDS		
+			gene	nad4L
+			product	NADH dehydrogenase subunit 4L, partial sequence
+
+461040	461621	gene		
+			gene	atp4
+461040	461621	CDS		
+			gene	atp4
+			product	ATP synthase F0 subunit 4
+
+469463	469535	gene		
+			gene	trnK-UUU
+469463	469535	tRNA		
+			gene	trnK-UUU
+			product	tRNA-Lys
+
+475117	475596	gene		
+			gene	atp8
+475117	475596	CDS		
+			gene	atp8
+			product	ATP synthase F0 subunit 8
+
+476635	477447	gene		
+			gene	mttB
+476635	477447	CDS		
+			gene	mttB
+			product	MttB
+
+481288	481343	gene		
+			gene	rrn5
+481288	481343	rRNA		
+			gene	rrn5
+			product	5S ribosomal RNA
+
+502621	502694	gene		
+			gene	trnW-CCA
+502621	502694	tRNA		
+			gene	trnW-CCA
+			product	tRNA-Trp
+
+513643	514215	gene		
+			gene	nad9
+513643	514215	CDS		
+			gene	nad9
+			product	NADH dehydrogenase subunit 9
+
+514909	514991	gene		
+			gene	trnY-GUA
+514909	514991	tRNA		
+			gene	trnY-GUA
+			product	tRNA-Tyr
+
+530815	530888	gene		
+			gene	trnM-CAU
+530815	530888	tRNA		
+			gene	trnM-CAU
+			product	tRNA-Met
+
+542998	541415	gene		
+			gene	cox1
+542998	541415	CDS		
+			gene	cox1
+			product	cytochrome c oxidase subunit 1
+
+552064	554374	gene		
+			gene	ccmFc
+552064	552825	CDS		
+553781	554374			
+			gene	ccmFc
+			product	cytochrome c biogenesis FC
+
+561087	561311	gene		
+			gene	atp9
+561087	561311	CDS		
+			gene	atp9
+			product	ATP synthase F0 subunit 9
+
+579471	578290	gene		
+			gene	cob
+579471	578290	CDS		
+			gene	cob
+			product	apocytochrome b
+
+580722	580399	gene		
+			gene	rps14
+580722	580399	CDS		
+			gene	rps14
+			product	ribosomal protein S14
+
+581269	580703	gene		
+			gene	rpl5
+581269	580703	CDS		
+			gene	rpl5
+			product	ribosomal protein L5
+
+<582207	581428	gene		
+			gene	atp6
+<582207	581428	CDS		
+			gene	atp6
+			product	ATP synthase F0 subunit 6, partial sequence
+
+598404	598318	gene		
+			gene	trnS-UGA
+598404	598318	tRNA		
+			gene	trnS-UGA
+			product	tRNA-Ser
+
+607334	609286	gene		
+			gene	rrn18
+607334	609286	rRNA		
+			gene	rrn18
+			product	18S ribosomal RNA
+
+609398	609515	gene		
+			gene	rrn5
+609398	609515	rRNA		
+			gene	rrn5
+			product	5S ribosomal RNA
+
+624350	615256	gene		
+			gene	nad4
+624350	623889	CDS		
+622493	621981			
+618007	617585			
+615345	615256			
+			gene	nad4
+			product	NADH dehydrogenase subunit 4
+
+628509	627328	gene		
+			gene	cob
+628509	627328	CDS		
+			gene	cob
+			product	apocytochrome b
+
+629759	629436	gene		
+			gene	rps14
+629759	629436	CDS		
+			gene	rps14
+			product	ribosomal protein S14
+
+630306	629740	gene		
+			gene	rpl5
+630306	629740	CDS		
+			gene	rpl5
+			product	ribosomal protein L5
+
+<631244	630465	gene		
+			gene	atp6
+<631244	630465	CDS		
+			gene	atp6
+			product	ATP synthase F0 subunit 6, partial sequence
+
+647442	647356	gene		
+			gene	trnS-UGA
+647442	647356	tRNA		
+			gene	trnS-UGA
+			product	tRNA-Ser
+
+656383	658338	gene		
+			gene	rrn18
+656383	658338	rRNA		
+			gene	rrn18
+			product	18S ribosomal RNA
+
+658450	658567	gene		
+			gene	rrn5
+658450	658567	rRNA		
+			gene	rrn5
+			product	5S ribosomal RNA
+
+677335	676697	gene		
+			gene	nad6
+677335	676697	CDS		
+			gene	nad6
+			product	NADH dehydrogenase subunit 6
+
+678625	678696	gene		
+			gene	trnN-GUU
+678625	678696	tRNA		
+			gene	trnN-GUU
+			product	tRNA-Asn
+
+679411	679338	gene		
+			gene	trnD-GUC
+679411	679338	tRNA		
+			gene	trnD-GUC
+			product	tRNA-Asp
+
+686978	685188	gene		
+			gene	ccmFn
+686978	685188	CDS		
+			gene	ccmFn
+			product	cytochrome c biogenesis Fn
+
+<699264	698095	gene		
+			gene	rps10
+<699264	699015	CDS		
+698225	698095			
+			gene	rps10
+			product	ribosomal protein S10, partial sequence
+
+704654	704725	gene		
+			gene	trnE-UUC
+704654	704725	tRNA		
+			gene	trnE-UUC
+			product	tRNA-Glu
+
+706341	712454	gene		
+			gene	nad7
+706341	706483	CDS		
+707339	707407			
+708711	709177			
+710171	710421			
+712200	712454			
+			gene	nad7
+			product	NADH dehydrogenase subunit 7
+
+712630	712703	gene		
+			gene	trnM-CAU
+712630	712703	tRNA		
+			gene	trnM-CAU
+			product	tRNA-Met

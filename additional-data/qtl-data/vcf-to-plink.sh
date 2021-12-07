@@ -30,4 +30,4 @@ plink --make-bed --bfile $out --out $out --keep $out.keep.txt
 
 #plink --bfile $out --recode --out t  # for debugging
 
-# rm $out.name.txt $out.sex.txt $out.pheno.txt $out.cm.txt $out.keep.txt $out.snp.txt
+rm $out.name.txt $out.sex.txt $out.pheno.txt $out.cm.txt $out.keep.txt $out.snp.txt

@@ -17,8 +17,15 @@ fi
 
 pop=$1
 P=$2
-plink --bfile $pop --allow-no-sex --assoc mperm=$P qt-means --mperm-save --pfilter 1 --threads 1 --out $pop
-#plink --bfile $pop --allow-no-sex --assoc --family --mperm 100000 --mperm-save --pfilter 1 --threads 1 --out $pop
+plink \
+    --bfile $pop \
+    --allow-no-sex \
+    --assoc mperm=$P qt-means \
+    --mperm-save \
+    --pfilter 1 \
+    --threads 1 \
+    --out $pop
+
 
 # Writes:
 #  $pop.qassoc

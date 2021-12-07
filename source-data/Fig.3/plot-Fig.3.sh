@@ -57,5 +57,5 @@ Rscript Fig.3b/plot-Fig.3b.R Fig.3b/Fig.3b Fig.3.chrom.sizes 0.05 Fig.3b
 
 Rscript Fig.3c/plot-Fig.3c.R Fig.3 Chr5:22308637 Fig.3c
 
-Rscript Fig.3d/plot-Fig.3d.R Fig.3d/Fig.3d.txt Chr5:22308637 Fig.3d
+Rscript Fig.3d/plot-Fig.3d.R Fig.3d/Fig.3d.txt.gz Chr5:22308637 Fig.3d
 
