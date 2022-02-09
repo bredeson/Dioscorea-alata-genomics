@@ -1,11 +1,11 @@
 #!/usr/bin/env Rscript
 
-# arguments = commandArgs(TRUE)
+arguments = commandArgs(TRUE)
 
-# if (length(arguments) != 3) {
-#    cat("Usage: plot-SupplementaryFig.3.R <med.depth> <bin-width> <out-pdf>\n", file=stderr());
-#    quit(status=1);
-# }
+if (length(arguments) != 3) {
+   cat("Usage: plot-SupplementaryFig.3.R <med.depth> <bin-width> <out-pdf>\n", file=stderr());
+   quit(status=1);
+}
 
 mdp.file = arguments[[1]]
 bin.width = as.numeric(arguments[[2]])
