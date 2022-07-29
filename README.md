@@ -3,7 +3,7 @@
 ## Description
 This repository contains scripts and data from the *Dioscorea alata* var. TDa95/00328 genome assembly v2 and population genetic analysis manuscript:
 
-- Bredeson, Lyons, et al. Chromosome evolution and the genetic basis of agronomically important traits in greater yam. *Nat Comm*. (in review)
+- Bredeson JV, Lyons JB, Oniyinde IO, Okereke NR, Kolade O, Nnabue I, Nwadili CO, Hribova E, Parker M, Nwogha J, Shu S, Carlson J, Kariba R, Muthemba S, Knop K, Barton GJ, Sherwood AV, Lopez-Montes A, Asiedu R, Jamnadass R, Muchugi A, Goodstein D, Egesi CN, Featherston J, Asfaw A, Simpson GG, Dolezel J, Hendre PS, Van Deynze A, Kumar PL, Obidiegwu JE, Bhattacharjee R, Rokhsar DS. Chromosome evolution and the genetic basis of agronomically important traits in greater yam. *Nat Commun*. 2022 Apr 14;13(1):2001. doi:10.1038/s41467-022-29114-w. PMID:35422045; PMCID:PMC9010478.
 
 
 ### Abstract
